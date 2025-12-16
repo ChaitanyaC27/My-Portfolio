@@ -3,6 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaFileDownload } from 'react-icons/fa';
 import Photo from '../assets/My photo.jpg'; // Verify path
+import ResumePDF from '../assets/Chaitanya_Potbhare Resume.pdf';
 
 const Hero = () => {
   return (
@@ -67,7 +68,7 @@ const Hero = () => {
               Hire Me
             </a>
             <a 
-              href="/assets/Chaitanya Potbhare Resume.pdf" 
+              href={ResumePDF} 
               download 
               className="btn btn-outline-dark btn-lg rounded-pill px-4 shadow-glow-hover"
             >
